@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/e13对象封装" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/e17_this" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/e22_super" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/e23_interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/e24_Object" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
