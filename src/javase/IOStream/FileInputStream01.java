@@ -1,9 +1,11 @@
 package javase.IOStream;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
+/**
+ * 一次读取一个字节
+ */
 public class FileInputStream01 {
     public static void main(String[] args) {
         FileInputStream fis = null;
@@ -24,13 +26,11 @@ public class FileInputStream01 {
             }*/
 
             //改进while
-            int readData = 0;
+            int readData;
             while ((readData = fis.read()) != -1){
                 System.out.println(readData);
             }
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
