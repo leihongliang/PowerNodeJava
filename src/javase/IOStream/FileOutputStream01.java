@@ -12,16 +12,13 @@ public class FileOutputStream01 {
             fos = new FileOutputStream("output");
             // 在此文件末尾追加
 //            fos = new FileOutputStream("output",true);
-            byte[] bytes = {100, 98, 99, 100};
-            fos.write(bytes);
+            byte[] bytes = {97, 98, 99, 100};
+            fos.write(bytes);// abcd
             fos.write(bytes, 0, 2);
 
             String s = "中文测试";
             byte[] zw = s.getBytes();
             fos.write(zw);
-
-
-
             fos.flush();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
