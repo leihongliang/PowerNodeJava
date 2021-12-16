@@ -51,7 +51,7 @@ class Customer2 implements Comparable<Customer2>{
 
     @Override
     public String toString() {
-        return "Customer2{" +
+        return "B_OOP.e15_this.Customer2{" +
                 "age=" + age +
                 '}';
     }
