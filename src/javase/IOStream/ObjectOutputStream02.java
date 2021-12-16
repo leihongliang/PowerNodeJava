@@ -12,7 +12,7 @@ public class ObjectOutputStream02 {
             userList.add(new User(2));
             userList.add(new User(3));
             ObjectOutputStream oos = null;
-            oos = new ObjectOutputStream(new FileOutputStream("ObjectOutputStream"));
+            oos = new ObjectOutputStream(new FileOutputStream("File/ObjectOutputStream"));
 
             //一次序列化一个集合
             oos.writeObject(userList);
@@ -20,7 +20,7 @@ public class ObjectOutputStream02 {
             oos.close();
 
             // 反序列化
-            ObjectInputStream ois = new ObjectInputStream(new FileInputStream("ObjectOutputStream"));
+            ObjectInputStream ois = new ObjectInputStream(new FileInputStream("File/ObjectOutputStream"));
             List<User> userList1 = (List<User>) ois.readObject();
             for (User user : userList1){
                 System.out.println(user);
