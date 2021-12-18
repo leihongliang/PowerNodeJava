@@ -1,4 +1,4 @@
-package A_basics.operator;/*
+package A_operator;/*
 变量
 1 内存中间的一块空间
 2 数据类型，名称，字面值（数值）
@@ -17,6 +17,7 @@ public class e4_Varable {
 //        int k = 9;
         System.out.println(k);
         for(int a=0; a<10; a++){
+            System.out.println(a);
         }
 
 //        System.out.println(com.lhl.base.a);//错误。a在上一个内存里已经被释放内存了

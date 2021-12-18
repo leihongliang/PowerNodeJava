@@ -1,4 +1,4 @@
-package A_basics.operator;
+package A_operator;
 
 public class e1_start {//定义一个公开的类，起名exe01
     // 这中间为 类体

@@ -1,4 +1,4 @@
-package A_basics.operator;/*
+package A_operator;/*
 tips
   1 可以访问作用域中的i变量
  */

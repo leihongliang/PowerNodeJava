@@ -1,4 +1,4 @@
-package A_basics.operator;
+package A_operator;
 
 /*
 标识符 有权利自己命名的单词

@@ -1,4 +1,4 @@
-package A_basics.operator;
+package A_operator;
 
 public class e10_while {
     public static void main(String[] args){

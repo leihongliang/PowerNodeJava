@@ -1,4 +1,4 @@
-package A_basics.operator;
+package A_operator;
 
 public class e8_switch {
     public static void main(String[] args){

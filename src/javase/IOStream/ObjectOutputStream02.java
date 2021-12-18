@@ -11,11 +11,11 @@ public class ObjectOutputStream02 {
             userList.add(new User(1));
             userList.add(new User(2));
             userList.add(new User(3));
-            ObjectOutputStream oos = null;
+            ObjectOutputStream oos;
             oos = new ObjectOutputStream(new FileOutputStream("File/ObjectOutputStream"));
 
             //一次序列化一个集合
-            oos.writeObject(userList);
+//            oos.writeObject(userList);
             oos.flush();
             oos.close();
 
@@ -26,16 +26,16 @@ public class ObjectOutputStream02 {
                 System.out.println(user);
             }
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
 
     }
 }
 class User implements Serializable {
+    private static final long serialVersionUID = 1L;
     int no;
+    String name;
     public User (int no){
         this.no = no;
     }
