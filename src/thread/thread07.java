@@ -1,7 +1,7 @@
 package thread;
 
 /**
- * 强行中断
+ * 强行中断 过时
  */
 
 public class thread07 {
