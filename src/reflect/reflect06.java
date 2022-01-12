@@ -34,7 +34,7 @@ public class reflect06 {
 }
 class Student{
     public static int no; // Field 对象
-    private  String name;
+    String name;
     protected int age;
     boolean sex;
 }
