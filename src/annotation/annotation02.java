@@ -1,7 +1,7 @@
 package annotation;
 import java.lang.reflect.Method;
 /**
- * 反射获取注解
+ * 反射获取注解。
  */
 public class annotation02 {
 
