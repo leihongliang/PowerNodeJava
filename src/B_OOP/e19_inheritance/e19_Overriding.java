@@ -1,4 +1,4 @@
-package B_OOP;
+package B_OOP.e19_inheritance;
 
 public class e19_Overriding{
     public static void main(String[] args){
@@ -55,3 +55,4 @@ class Bird extends Animal {
         System.out.println("bird can fly");
     }
 }
+
